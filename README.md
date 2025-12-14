@@ -1,2 +1,150 @@
 # namaliuy-svoyu-mriyus
 first project
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Намалюй свою мрію</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f4f8;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4a90e2, #6fb1fc);
+            color: white;
+            padding: 30px 15px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        nav {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #4a90e2;
+        }
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 15px;
+        }
+        h2 {
+            color: #4a90e2;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+        .card p {
+            padding: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Намалюй свою мрію</h1>
+    <p>Навчальний веб‑проєкт з інформатики</p>
+</header>
+
+<nav>
+    <a href="#about">Про проєкт</a>
+    <a href="#types">Види графіки</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#conclusion">Висновок</a>
+</nav>
+
+<section id="about">
+    <h2>Про проєкт</h2>
+    <p>
+        Мета цього проєкту — дослідити основні види комп’ютерної графіки,
+        навчитися створювати зображення за допомогою різних програмних засобів
+        та представити результати у вигляді веб‑сайту з галереєю малюнків.
+    </p>
+</section>
+
+<section id="types">
+    <h2>Види комп’ютерної графіки</h2>
+    <ul>
+        <li><b>Растрова графіка</b> — зображення з пікселів (Paint, Photoshop, GIMP).</li>
+        <li><b>Векторна графіка</b> — зображення з геометричних фігур (Inkscape, CorelDRAW).</li>
+        <li><b>Тривимірна графіка</b> — 3D‑моделі та сцени (Blender, 3ds Max).</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Галерея малюнків</h2>
+    <div class="gallery">
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Малюнок 1">
+            <p>Моя мрія №1</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Малюнок 2">
+            <p>Моя мрія №2</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300" alt="Малюнок 3">
+            <p>Моя мрія №3</p>
+        </div>
+    </div>
+</section>
+
+<section id="conclusion">
+    <h2>Висновок</h2>
+    <p>
+        Під час виконання проєкту я дізнався про різні види комп’ютерної графіки
+        та навчився створювати простий веб‑сайт. Веб‑сайт є зручним способом
+        представлення творчих робіт і результатів дослідження.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 Навчальний проєкт з інформатики</p>
+</footer>
+
+</body>
+</html>
